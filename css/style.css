@@ -371,6 +371,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .modal .modal-body .wrapper h4,
@@ -413,6 +414,41 @@ body {
 
 .box .btn-delete {
   cursor: pointer;
+}
+
+/* product container */
+.product-container {
+  position: relative;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.product-container .box-product {
+  position: relative;
+  width: 100%;
+  padding: 20px 20px;
+  background: #f1f1f1;
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.product-container .box-product .image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.product-container .box-product h4 {
+  font-size: 0.8rem;
+}
+
+.product-container .box-product span {
+  display: block;
+  font-size: 0.7rem;
 }
 
 /* mobile screen */

@@ -66,52 +66,7 @@
       <h2>Produk <span>Kami</span></h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem in aliquid nemo totam atque qui!</p>
     </div>
-    <div class="card-container">
-      <!-- card start -->
-      <div class="card">
-        <img src="images/produk1.jpg" width="100" alt="produk kami" class="card-image gambar-produk">
-        <h4 class="nama-produk">Jamaican Blue Mountain</h4>
-        <h5 class="harga-produk">80000</h5>
-        <p >ditanam di pegunungan Jamaika dan dianggap sebagai salah satu kopi terbaik di dunia.</p>
-        <button type="button" class="button button-cart">Add to cart</button>
-      </div>
-      <div class="card">
-        <img src="images/produk2.jpg" width="100" alt="produk kami" class="card-image gambar-produk">
-        <h4 class="nama-produk">Kopi Luwak</h4>
-        <h5 class="harga-produk">15000</h5>
-        <p>juga dikenal sebagai kopi civet, dihasilkan dari biji kopi yang telah dikonsumsi dan dilewatkan melalui sistem pencernaan hewan luwak atau sejenisnya. Biasanya berasal dari Indonesia dan Filipina.</p>
-        <button type="button" class="button button-cart">Add to cart</button>
-      </div>
-      <div class="card">
-        <img src="images/produk2.jpg" width="100" alt="produk kami" class="card-image gambar-produk">
-        <h4 class="nama-produk">Ethiopian Yirgacheffe</h4>
-        <h5 class="harga-produk">43000</h5>
-        <p>kopi Arabica berkualitas tinggi yang tumbuh di wilayah Yirgacheffe, Ethiopia. Memiliki cita rasa buah-buahan dan coklat yang kuat.</p>
-        <button type="button" class="button button-cart">Add to cart</button>
-      </div>
-      <div class="card">
-        <img src="images/produk1.jpg" width="100" alt="produk kami" class="card-image gambar-produk">
-        <h4 class="nama-produk">Colombian Supremo</h4>
-        <h5 class="harga-produk">78500</h5>
-        <p>kopi Arabica yang berasal dari Colombia. Memiliki rasa kacang yang kaya dan asam yang seimbang.</p>
-        <button type="button" class="button button-cart">Add to cart</button>
-      </div>
-      <div class="card">
-        <img src="images/produk2.jpg" width="100" alt="produk kami" class="card-image gambar-produk">
-        <h4 class="nama-produk">Sumatra Mandheling</h4>
-        <h5 class="harga-produk">30000</h5>
-        <p>kopi Arabica dari pulau Sumatra, Indonesia. Memiliki rasa pahit dan aroma rempah-rempah yang kuat.</p>
-        <button type="button" class="button button-cart">Add to cart</button>
-      </div>
-      <div class="card">
-        <img src="images/produk1.jpg" width="100" alt="produk kami" class="card-image gambar-produk">
-        <h4 class="nama-produk">Vietnamese Coffee</h4>
-        <h5 class="harga-produk">65000</h5>
-        <p>yang dicampur dengan susu manis kental yang dikenal sebagai susu pekat. Sering disajikan dengan es batu dan disajikan sebagai minuman segar di Vietnam.</p>
-        <button type="button" class="button button-cart">Add to cart</button>
-      </div>
-      <!-- card end -->
-    </div>
+    <div class="card-container"></div>
   </section>
   <!-- section menu end -->
   
@@ -171,13 +126,16 @@
     </div>
     <div class="modal-body">
       <div class="form-group">
-        <input type="text" class="input search-input" placeholder="ketikkan nama menu ...">
+        <input type="text" class="input search-input" placeholder="ketikkan nama produk ...">
       </div>
+      <!-- product container start -->
+      <div class="product-container"></div>
+      <!-- product container end -->
     </div>
   </div>
   <!-- search input modal end -->
   
-  <!-- table modal start -->
+  <!-- shopping cart modal start -->
   <div class="modal" data-id="tableModal">
     <div class="modal-header">
       <h3>Shopping Cart Modal</h3>
@@ -191,9 +149,12 @@
         <h4>Total Biaya : </h4>
         <span class="price">0</span>
       </div>
+      <button class="button button-checkout">Checkout</button>
     </div>
   </div>
-  <!-- table modal end -->
+  <!-- shopping cart modal end -->
+  
+  <script src="../folder/vconsole/dist/vconsole.min.js"></script>
   
   <!-- feather icon -->
   <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
@@ -203,7 +164,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.2/sweetalert2.min.js"></script>
   
   <!-- my javascript -->
-  <script src="js/shopping-cart.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
